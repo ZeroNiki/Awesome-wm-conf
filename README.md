@@ -1,4 +1,6 @@
 # Awesome-wm-conf
+[![Awesome](http://img.youtube.com/vi/sXfrGQtoVBg/0.jpg)](https://www.youtube.com/watch?v=sXfrGQtoVBg)
+
 Use:
 - Terminal: kitty
 - Rofi
