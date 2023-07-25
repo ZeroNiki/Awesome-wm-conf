@@ -1,0 +1,8 @@
+2023/07/21-20:40:51.417 8cbf Reusing MANIFEST /home/zero/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/07/21-20:40:51.417 8cbf Recovering log #3
+2023/07/21-20:40:51.422 8cbf Level-0 table #3: started
+2023/07/21-20:40:51.496 8cbf Level-0 table #3: 1760225 bytes OK
+2023/07/21-20:40:51.555 8cbf Delete type=0 #3
+2023/07/21-20:41:53.463 8cc2 Level-0 table #6: started
+2023/07/21-20:41:53.515 8cc2 Level-0 table #6: 1759836 bytes OK
+2023/07/21-20:41:53.573 8cc2 Delete type=0 #4

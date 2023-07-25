@@ -1,0 +1,787 @@
+Mono path[0] = '/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Managed'
+Mono config path = '/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Unable to preload the following plugins:
+	sqlite3.so
+Display 0 'LF22T35 22"': 1920x1080 (primary device).
+Desktop is 1920 x 1080 @ 75 Hz
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Renderer: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 535.86.05
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced
+_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap_triangles GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_
+NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV
+_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 13281240
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.645 seconds
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 75 Hz
+UnloadTime: 1.408545 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+
+Odin Serializer detected whitelisted runtime platform LinuxPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+
+LoadGameSettings
+
+Save default key bindings
+
+Deserialize keyboard binding: 26
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.305060 ms
+****************************************
+*** Starting Graveyard Keeper, ver. 1.407
+
+Init: device name : NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2, type: Desktop, model: PC, ver: OpenGL 4.5.0 NVIDIA 535.86.05, screen: 1920x1080
+
+Preloader.Awake, time = 7.183239
+
+Current system language: English
+
+Stranger Sins DLC is available: False
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+Game of Crone DLC is available: False
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+Better Save Soul DLC is available: False
+
+InitResolutions
+
+Available: 640x480, scale = 2
+
+Available: 720x480, scale = 2
+
+Available: 768x480, scale = 2
+
+Available: 800x480, scale = 2
+
+Available: 854x480, scale = 2
+
+Available: 960x540, scale = 2
+
+Available: 1024x576, scale = 2
+
+Available: 800x600, scale = 2
+
+Available: 1024x600, scale = 2
+
+Available: 960x640, scale = 2
+
+Available: 1024x640, scale = 2
+
+Available: 1136x640, scale = 2
+
+Available: 960x720, scale = 2
+
+Available: 1152x720, scale = 2
+
+Available: 1280x720, scale = 2
+
+Available: 1024x768, scale = 2
+
+Available: 1152x768, scale = 2
+
+Available: 1280x768, scale = 2
+
+Available: 1366x768, scale = 2
+
+Available: 1280x800, scale = 2
+
+Available: 1152x864, scale = 2
+
+Available: 1280x864, scale = 2
+
+Available: 1440x900, scale = 2
+
+Available: 1600x900, scale = 2
+
+Available: 1280x960, scale = 2
+
+Available: 1440x960, scale = 2
+
+Available: 1280x1024, scale = 2
+
+Available: 1600x1024, scale = 2
+
+Available: 1400x1050, scale = 2
+
+Available: 1680x1050, scale = 2
+
+Available: 1920x1080, scale = 2
+
+ApplyScreenMode()
+
+ApplyCustomScreenParameters, screen_mode = FullScreen, cursor = Default, res = 1920x1080
+
+ApplyFullScreenMode 1920x1080, ExclusiveFullScreen, vsync = 0
+
+SetResolution #1
+
+OnResolutionChanged 1920x1080
+
+Applied resolution: ResolutionConfig [1920x1080, pixel_size=2]
+
+CheckTimezoneBug...
+
+time now = 07/21/2023 20:59:10
+
+CheckTurkishBug... I
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3759.
+Total: 0.734205 ms (FindLiveObjects: 0.142369 ms CreateObjectMapping: 0.112897 ms MarkObjects: 0.470978 ms  DeleteObjects: 0.007680 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 75 Hz
+SetResolution #2
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 75 Hz
+The referenced script on this Behaviour (Game Object 'z') is missing!
+
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/data-0x24e5e10.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/data-0x250ad50.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/data-0x255d550.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so.0
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so.0.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so.1
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libudev.so.1.so
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libc.so.6
+Fallback handler could not load library /home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data/Mono/./libc.so.6.so
+ProCamera2D.Awake()
+
+StartGameLoading, time = 17.31503
+
+Setting breakpad minidump AppID = 599140
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198982971673 [API loaded no]
+SteamManager.Initialized = True
+
+SmartResourceHelper.PreloadResources
+
+LoadLanguageResource("en"), 10961 lines loaded
+
+CreateHash
+
+Starting scene: scene_main
+
+Init game from GUI scene. Loading world scene: scene_graveyard
+
+Loading GUI: Show
+
+Loading: SetProgressBar = 0
+
+Filled Rooms Dictionary.
+
+Preloader.OnSceneLoaded: scene_main, time = 17.31503
+
+Creating pool of objects WorldGameObject, n = 10000
+
+Error loading asset "FlowCanvas/WGO Scripts/priest_test"
+
+Error loading asset "FlowCanvas/WGO Scripts/golgothan_body"
+
+TitleScreen.Hide
+
+StartLoadingScene scene_graveyard
+
+TitleScreen.Awake
+
+OnSceneLoaded: title_screen
+
+OnTitleScreenSceneLoaded
+
+Skipping wrong scene
+
+Intro.Awake
+
+Loaded from the MainGame
+
+OnSceneLoaded: intro
+
+OnIntroSceneLoaded
+
+Skipping wrong scene
+
+ProCamera2D.Awake()
+
+More than one Playlist Controller prefab exists in this Scene with the same name. Destroying the one called 'music'. You may wish to set up a Bootstrapper Scene so this does not occur.
+
+More than one Playlist Controller prefab exists in this Scene with the same name. Destroying the one called 'ovr music'. You may wish to set up a Bootstrapper Scene so this does not occur.
+
+More than one Playlist Controller prefab exists in this Scene with the same name. Destroying the one called 'menu'. You may wish to set up a Bootstrapper Scene so this does not occur.
+
+More than one Playlist Controller prefab exists in this Scene with the same name. Destroying the one called 'ambient'. You may wish to set up a Bootstrapper Scene so this does not occur.
+
+More than one Master Audio prefab exists in this Scene. Destroying the newer one called 'MasterAudio'. You may wish to set up a Bootstrapper Scene so this does not occur.
+
+Second MainGame scene awake
+
+Player Component Awake
+
+OnSceneLoaded: scene_graveyard
+
+InitWorldOnApplicationStart
+
+Player default pos: (26.0, -65.6, -1310.7)
+
+Removing player prefab
+
+InitGUIScene, this: Main Camera (gs), world: Main Camera (g)
+
+InitWorldOnApplicationStart
+
+GeneralInit, time = 32.48782
+
+GameAwakenerEngine.Init
+
+LazyInput started
+
+EnableTime: True
+
+Creating pool of objects TechConnector, n = 100
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+SetGameStatus: InGame
+
+Set player enabled, affect_cinematic = False
+
+ChangeBubblesVisibility True
+
+ChangeHUDAlpha show=True
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+HUD show
+
+Open main menu, switch_music = True
+
+<color=green>Open GUI:</color> MainMenuGUI
+
+HUD hide
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+TitleScreen.Show
+
+SetGameStatus: InMenu
+
+Destroy All bubbles, count = 0
+
+OnScreenSizeChanged (1920.0, 1080.0)
+
+Setting camera size: (1920.0, 1080.0) for pixel size: 2
+
+RescanAllObjects
+
+RescanAllObjects: added objects = 20104
+
+DisableComponentOnStaticObjects, count = 23523
+
+GeneralInit - Done, time = 32.48782
+
+SaveSceneToMe, count = 2
+
+WGO with an empty ID found, name = [wgo] swamp_table_constr
+
+SerializableGameMap length = 3118629
+
+ProCamera2D.Awake()
+
+OnSceneLoaded: Done
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+LoadAllAtlasesAsync sprite_collection_atlases
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+Loading GUI: Hide
+
+OnAtlasLoaded chars, sprites: 13627
+
+Error adding sprite to a library - duplicate name: 700_work_bot_up_01
+
+Error adding sprite to a library - duplicate name: 312_hed_down
+
+Error adding sprite to a library - duplicate name: 312_hed_up
+
+Error adding sprite to a library - duplicate name: 440_hed_down_talking
+
+Error adding sprite to a library - duplicate name: 312_hed_left
+
+Error adding sprite to a library - duplicate name: 311_mid_idle_down_01
+
+OnAtlasLoaded icons, sprites: 879
+
+Error loading asset "FlowCanvas/WGO Scripts/zombie_working_in_garden"
+
+Error loading asset "FlowCanvas/WGO Scripts/rain"
+
+Error loading asset "objects\crafting_skull_3"
+
+<color=green>Open GUI:</color> SaveSlotsMenuGUI
+
+HUD hide
+
+loaded slots count: 0
+
+loaded slots count: 1
+
+On select 
+
+OnSelectSlotPressed, null = False
+
+Loading GUI: Show
+
+Loading: SetProgressBar = 0
+
+TitleScreen.Hide
+
+Load game, slot = SaveSlotData
+
+Loading: SetProgressBar = 0.05
+
+RestoreScene, wgos count = 3542
+
+PrepareScene
+
+ClearCraftsListOnGameStart
+
+RescanGDPoints, count = 2150
+
+FROM: data.active_now_bacause_of_action wgo prefab(Clone)
+
+Deserializing moving object: GoTo
+
+Seeker not found, adding
+
+FROM: data.active_now_bacause_of_action wgo prefab(Clone)
+
+Deserializing moving object: GoTo
+
+Seeker not found, adding
+
+FROM: data.active_now_bacause_of_action wgo prefab(Clone)
+
+Deserializing moving object: GoTo
+
+Seeker not found, adding
+
+FROM: data.active_now_bacause_of_action wgo prefab(Clone)
+
+Deserializing moving object: GoTo
+
+Seeker not found, adding
+
+Fixing stuck [wgo] npc_bishop
+
+Fixing stuck [wgo] npc_astrologer
+
+FROM: data.active_now_bacause_of_action wgo prefab(Clone)
+
+Deserializing moving object: GoTo
+
+Seeker not found, adding
+
+Added PorterStation component to wgo porter_station[porter_station]
+
+Inited porter station on wgo "porter_station"
+
+Inited porter station on wgo "porter_station"
+
+Loading: SetProgressBar = 0.1
+
+Loading: StartPlayingGame
+
+Loading: SetProgressBar = 0.4
+
+Setting UniqueID = 72596
+
+EnvironmentEngine.Init()
+
+Dungeon Generation: Changed global seed [6394 => 6394]
+
+Loading: SetProgressBar = 0.45
+
+Loading: StartPlayingGame 2
+
+Loading: SetProgressBar = 0.5
+
+Loading: SetProgressBar = 0.6
+
+Loading: SetProgressBar = 0.8
+
+A* scan, graph = 0
+
+A* scan, graph = 1
+
+GDPointGraph: ScanInternal finished correctly! Nodes count: 2170 (1411/2048)
+
+A* scan, graph = 2
+
+Loading: SetProgressBar = 0.85
+
+RescanGDPoints, count = 2170
+
+Save.PrepareAfterLoad
+
+#MSA# Ach:[bury_1_body], counter:[1], achieved:[True]
+
+#MSA# Ach:[bury_10_bodies], counter:[10], achieved:[True]
+
+#MSA# Ach:[first_slice], counter:[1], achieved:[True]
+
+#MSA# Ach:[first_slice_10], counter:[30], achieved:[True]
+
+#MSA# Ach:[meet_astro], counter:[1], achieved:[True]
+
+#MSA# Ach:[meet_actress], counter:[1], achieved:[True]
+
+#MSA# Ach:[meet_merch], counter:[1], achieved:[True]
+
+#MSA# Ach:[meet_inq], counter:[1], achieved:[True]
+
+#MSA# Ach:[meet_bishop], counter:[1], achieved:[True]
+
+#MSA# Ach:[meet_snake], counter:[1], achieved:[True]
+
+#MSA# Ach:[fix_garden], counter:[1], achieved:[True]
+
+#MSA# Ach:[marble], counter:[1], achieved:[True]
+
+#MSA# Ach:[astro_skull], counter:[1], achieved:[True]
+
+#MSA# Ach:[fix_bridge], counter:[1], achieved:[True]
+
+#MSA# Ach:[tech_g], counter:[1000], achieved:[True]
+
+#MSA# Ach:[tech_r], counter:[1000], achieved:[True]
+
+Restoring time: -0.156561
+
+InitZonesSystem, zones = 47
+
+RescanAllObjects
+
+RescanAllObjects: added objects = 23645
+
+InitAllWorldWGOs, count = 3542
+
+RecalculateAllZones, zones = 47
+
+GetSavedPlayerInventory
+
+Player Component Awake
+
+ResetPlayerPosition: (25.4, -65.3, -1304.6), loaded_from_scene_main = True
+
+ResetPlayerPosition: (25.4, -65.3, -1304.6), loaded_from_scene_main = True
+
+SetLocalPlayerState, is_local = True
+
+Spawning player, is_local_player = True
+
+ApplyCurrentEnvironmentPreset, id = house
+
+SetMainLUT, texture = lut_normal, morph_speed = 4
+
+StartMorph lut_normal, dir = 1
+
+HUD hide
+
+Rescan WGOs list
+
+Rescan Spawners list
+
+Seeker not found, adding
+
+Seeker not found, adding
+
+SetCarryingItem = null
+
+SetCarryingItem = null
+
+Deserializing tech points, Count = 0
+
+Filled visitors list. Count=0
+
+Tavern Engine: initialized. available_idle_points=0, visitors_unique_ids=0, locks=0
+
+Could't find zone [refugees_camp]
+
+set None
+
+SetToolGraphics 0
+
+SetOverheadItem = null
+
+Set walk animation type = Standard
+
+Loading: StartPlayingGame 3
+
+Loading: SetProgressBar = 1
+
+Loading GUI: Hide
+
+Loading: StartPlayingGame 4
+
+HUD show
+
+Teleporting Player(Clone) to GD point: gd_player_respawn
+
+<color=green>OnGameStartedPlaying</color>, time elapsed = 59
+
+SetGameStatus: InGame
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+World Object not found
+
+World Object not found
+
+#ipm# [idle_points_stock]: lock idle point {tavern_idle_9}
+
+GoTo [wgo] npc_citizen_woman_2, dest = (4768.0, -7898.0)
+
+Seeker not found, adding
+
+Nearest GD point: village_idle_7, pos = (16808.0, -1840.0, 0.0), obj_pos = (16808.1, -1840.2)
+
+Is Idle point
+
+Teleporting [wgo] worker_zombie_1 to GD point: zombie_sawmill_d
+
+GoTo [wgo] worker_zombie_1, dest = (4196.0, -280.0)
+
+Set new filter_astar_area = 115 for WGO [worker_zombie_1]
+
+Nearest GD point: zombie_sawmill_d, pos = (2082.0, 3434.0, 0.0), obj_pos = (2082.0, 3434.0)
+
+SetCarryingItem = null
+
+Interact on = Player(Clone), found target = [wgo] teleport_inside
+
+<color=yellow>Running interaction script</color> "Teleport" on WGO: '[wgo] teleport_inside' by: 'Player(Clone)'
+
+<color=yellow>Run FlowScript:</color> Teleport, parent_go: [wgo] teleport_inside, is_global = False
+
+Teleporting to target: [wgo] teleport_point
+
+ChangeBubblesVisibility False
+
+Change Environment, teleport_tag = tp_house_a
+
+ApplyCurrentEnvironmentPreset, id = 
+
+SetMainLUT, texture = null, morph_speed = 4
+
+StartMorph null, dir = -1
+
+SetMainLUT, texture = lut_dungeon_1, morph_speed = 4
+
+SetMainLUT, texture = null, morph_speed = 4
+
+GDZone.OnTriggerEnter2D house_gd_zone, obj = Player(Clone)
+
+<color=yellow>Run FlowScript:</color> on_enter_house_outside_gd_zone, parent_go: World, is_global = True
+
+<color=orange>Terminating Script:</color> on_enter_house_outside_gd_zone, is_global = True
+
+ChangeBubblesVisibility True
+
+ChangeBubblesVisibility True
+
+Player teleport to tp_house_a
+
+<color=orange>Terminating Script:</color> Teleport, is_global = False
+
+StartMorph null, dir = 1
+
+Craft end, other_obj = [wgo] oven, n = 1, q = 0
+
+GDZone.OnTriggerExit2D house_gd_zone, obj = Player(Clone), diff_vector = (393.5, -144.2)
+
+<color=yellow>Execute logic:</color> "rednecks_walking_in_tavern" at 80.45003
+
+FlowScriptEngine.SendEvent: walking_in_tavern
+
+rednecks_spawned=1, do_remove_rednecks=0 => DoShake
+
+#ipm# [idle_points_stock]: lock idle point {village_idle_5}
+
+GoTo [wgo] npc_redneck_4, dest = (15926.0, -1602.0)
+
+Nearest GD point: tavern_idle_11, pos = (4710.0, -7784.0, 0.0), obj_pos = (4709.9, -7784.2)
+
+Is Idle point
+
+#ipm# [idle_points_stock]: lock idle point {tavern_idle_3}
+
+GoTo [wgo] npc_redneck_5, dest = (4512.0, -7624.0)
+
+Nearest GD point: village_idle_4, pos = (15744.0, -1596.0, 0.0), obj_pos = (15743.9, -1595.7)
+
+Is Idle point
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+<b>(NodeCanvas Warning)</b>: Graph is already Active.
+
+#ipm# [idle_points_stock]: lock idle point {village_idle_7}
+
+GoTo [wgo] npc_citizen_woman_1, dest = (16808.0, -1840.0)
+
+Seeker not found, adding
+
+Nearest GD point: village_idle_3, pos = (15360.0, -1670.0, 0.0), obj_pos = (15363.3, -1670.1)
+
+Is Idle point
+
+Craft end, other_obj = [wgo] mf_furnace_1, n = 2, q = 0
+
+#ipm# [idle_points_stock]: lock idle point {tavern_idle_11}
+
+GoTo [wgo] npc_citizen_woman_2, dest = (4710.0, -7784.0)
+
+Nearest GD point: tavern_idle_9, pos = (4768.0, -7898.0, 0.0), obj_pos = (4768.2, -7898.0)
+
+Is Idle point
+
+<color=green>Open GUI:</color> InGameMenuGUI
+
+HUD hide
+
+ChangeBubblesVisibility True
+
+SetPausedMode: True
+
+SetDullMusicMode True
+
+SetGameStatus: InMenu
+
+SetPausedMode: False
+
+<color=green>Hide GUI:</color> InGameMenuGUI
+
+HUD show
+
+ChangeBubblesVisibility True
+
+RedrawCurrentInteractiveHint
+
+SetGameStatus: InGame
+
+SetDullMusicMode False
+
+<color=green>Open GUI:</color> DialogGUI
+
+HUD hide
+
+ChangeBubblesVisibility True
+
+<color=green>Hide GUI:</color> DialogGUI
+
+HUD show
+
+ChangeBubblesVisibility True
+
+RedrawCurrentInteractiveHint
+
+Loading GUI: Show
+
+TitleScreen.Hide
+
+ReturnToMainMenu
+
+StopPlayingGame
+
+Destroy All bubbles, count = 9
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Open main menu, switch_music = True
+
+<color=green>Open GUI:</color> MainMenuGUI
+
+HUD hide
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+/home/zero/.local/share/Steam/steamapps/common/Graveyard Keeper/Graveyard Keeper_Data
+
+TitleScreen.Show
+
+SetGameStatus: InMenu
+
+Destroy All bubbles, count = 0
+
+Loading GUI: Hide
+
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 900631.
+Total: 882.627947 ms (FindLiveObjects: 39.228567 ms CreateObjectMapping: 13.977150 ms MarkObjects: 828.668060 ms  DeleteObjects: 0.753678 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 7f29e67fe6c0 -> priority: 1 
+  Thread -> id: 7f29e5ffd6c0 -> priority: 1 
+  Thread -> id: 7f29e57fc6c0 -> priority: 1 
+  Thread -> id: 7f29e4ffb6c0 -> priority: 1 
