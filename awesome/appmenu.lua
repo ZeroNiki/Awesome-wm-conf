@@ -37,9 +37,12 @@ appmenu.Games = {
     { 'GZDoom', 'gzdoom', '/usr/share/icons/hicolor/256x256/apps/gzdoom.xpm' },
     { 'Lutris', 'lutris', '/usr/share/icons/hicolor/128x128/apps/lutris.png' },
     { 'Steam (Runtime)', '/usr/bin/steam-runtime', '/usr/share/icons/hicolor/16x16/apps/steam.png' },
+    { 'osu!lazer', '/usr/bin/osu-lazer', '/usr/share/pixmaps/osu-lazer.png' },
 }
 
 appmenu.Graphics = {
+    { 'Blender', 'blender', '/usr/share/icons/hicolor/scalable/apps/blender.svg' },
+    { 'Document Viewer', 'evince', '/usr/share/icons/hicolor/scalable/apps/org.gnome.Evince.svg' },
     { 'Flameshot', '/usr/bin/flameshot', '/usr/share/icons/hicolor/128x128/apps/org.flameshot.Flameshot.png' },
     { 'GNU Image Manipulation Program', 'gimp-2.10', '/usr/share/icons/hicolor/16x16/apps/gimp.png' },
     { 'LibreOffice Draw', 'libreoffice --draw', '/usr/share/icons/hicolor/128x128/apps/libreoffice-draw.png' },
@@ -57,6 +60,7 @@ appmenu.Internet = {
 }
 
 appmenu.Office = {
+    { 'Document Viewer', 'evince', '/usr/share/icons/hicolor/scalable/apps/org.gnome.Evince.svg' },
     { 'LibreOffice', 'libreoffice', '/usr/share/icons/hicolor/128x128/apps/libreoffice-startcenter.png' },
     { 'LibreOffice Base', 'libreoffice --base', '/usr/share/icons/hicolor/128x128/apps/libreoffice-base.png' },
     { 'LibreOffice Calc', 'libreoffice --calc', '/usr/share/icons/hicolor/128x128/apps/libreoffice-calc.png' },
@@ -73,6 +77,7 @@ appmenu.MultiMedia = {
     { 'PulseAudio Volume Control', 'pavucontrol' },
     { 'Qt V4L2 test Utility', 'qv4l2', '/usr/share/icons/hicolor/16x16/apps/qv4l2.png' },
     { 'Qt V4L2 video capture utility', 'qvidcap', '/usr/share/icons/hicolor/16x16/apps/qvidcap.png' },
+    { 'Shotcut', 'shotcut', '/usr/share/icons/hicolor/128x128/apps/org.shotcut.Shotcut.png' },
     { 'VLC media player', '/usr/bin/vlc --started-from-file', '/usr/share/icons/hicolor/128x128/apps/vlc.png' },
     { 'Volume Icon', 'volumeicon' },
     { 'mpv Media Player', 'mpv --player-operation-mode=pseudo-gui --', '/usr/share/icons/hicolor/128x128/apps/mpv.png' },
@@ -99,6 +104,7 @@ appmenu.System = {
     { 'Sigma file manager', 'sigma-file-manager --no-sandbox' },
     { 'Task Manager', 'xfce4-taskmanager', '/usr/share/icons/hicolor/128x128/apps/org.xfce.taskmanager.png' },
     { 'Timeshift', 'timeshift-launcher', '/usr/share/icons/hicolor/128x128/apps/timeshift.png' },
+    { 'btop++', 'xterm -e btop', '/usr/share/icons/hicolor/48x48/apps/btop.png' },
     { 'kitty', 'kitty', '/usr/share/icons/hicolor/256x256/apps/kitty.png' },
     { 'ranger', 'xterm -e ranger' },
 }

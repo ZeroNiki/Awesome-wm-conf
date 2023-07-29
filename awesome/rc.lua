@@ -31,6 +31,9 @@ local fs_widget = require("awesome-wm-widgets.fs-widget.fs-widget")
 --Calendar
 local calendar_widget = require("awesome-wm-widgets.calendar-widget.calendar")
 
+--TODO
+-- local todo_widget = require("awesome-wm-widgets.todo-widget.todo")
+
 -- Notification library
 local naughty = require("naughty")
 local menubar = require("menubar")
@@ -248,7 +251,7 @@ awful.screen.connect_for_each_screen(function(s)
 
     -- Each screen has its own tag table.
     -- Tags layouts
-    awful.tag({ "1", "2", "3", "4", "5" }, s,
+    awful.tag({ "  ", "   ", "  ", "   ", "   " }, s,
         { awful.layout.layouts[1], awful.layout.layouts[1], awful.layout.layouts[2], awful.layout.layouts[2],
             awful.layout.layouts[2] })
 
@@ -263,6 +266,7 @@ awful.screen.connect_for_each_screen(function(s)
         awful.button({}, 3, function() awful.layout.inc(-1) end),
         awful.button({}, 4, function() awful.layout.inc(1) end),
         awful.button({}, 5, function() awful.layout.inc(-1) end)))
+
     -- Create a taglist widget
     s.mytaglist = awful.widget.taglist {
         screen  = s,
@@ -270,31 +274,57 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = taglist_buttons
     }
 
+
+
     -- Create a tasklist widget
+    -- s.mytasklist = awful.widget.tasklist {
+    --     screen  = s,
+    --     filter  = awful.widget.tasklist.filter.currenttags,
+    --     buttons = tasklist_buttons,
+    --     style   = {
+    --         shape = gears.shape.rounded_bar,
+    --     },
+    -- }
+    --
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
         filter  = awful.widget.tasklist.filter.currenttags,
-        buttons = tasklist_buttons
+        buttons = tasklist_buttons,
+        layout  = {
+            spacing_widget = {
+                valign = 'center',
+                halign = 'center',
+                widget = wibox.container.place,
+            },
+            spacing        = 1,
+            layout         = wibox.layout.fixed.horizontal
+        },
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s, height = 30 })
+    s.mywibox = awful.wibar({ position = "top", align = "right", screen = s, height = 30, width = 1700, opacity = 0.8 })
+    awful.placement.align(s.mywibox, { position = "top", margins = 5 })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
+        expand = "none",
         { -- Left widgets
-            spacing = 7,
             layout = wibox.layout.fixed.horizontal,
             mylauncher,
+            spacing = 5,
             s.mytaglist,
             s.mypromptbox,
+
         },
+
         s.mytasklist, -- Middle widget
+
         {             -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             spacing = 5,
             mykeyboardlayout,
+            -- todo_widget(),
             ram_widget(),
             volume_widget {
                 widget_type = 'arc',
@@ -411,6 +441,12 @@ globalkeys = gears.table.join(
     --Steam
     awful.key({ modkey }, "n", function() awful.util.spawn('steam') end,
         { description = "steam", group = "applications" }),
+
+    --File manager
+    awful.key({ modkey }, "v", function() awful.util.spawn('pcmanfm') end,
+        { description = "pcmanfm", group = "applications" }),
+
+
 
     -- Prompt
     awful.key({ modkey }, 'r', function() awful.util.spawn('rofi -show drun') end,
@@ -572,6 +608,19 @@ awful.rules.rules = {
     },
 
     {
+        rule = { class = "Pcmanfm" },
+        properties = { floating = true, tag = "4", placement = awful.placement.centered },
+        callback = function(c)
+            c:geometry({ width = 1460, height = 750 })
+        end
+    },
+
+    {
+        rule = { class = "Blender" },
+        properties = { tag = "4", placement = awful.placement.centered },
+    },
+
+    {
         rule = { class = "TelegramDesktop" },
         properties = { floating = true, placement = awful.placement.top_right },
         callback = function(c)
@@ -581,14 +630,19 @@ awful.rules.rules = {
 
     {
         rule = { class = "steam" },
-        properties = { floating = true, tag = "5", placement = awful.placement.centered },
-        callback = function(c)
-            c:geometry({ width = 1560, height = 850 })
-        end
+        properties = { tag = "5", placement = awful.placement.centered },
     },
 
     {
         rule = { class = "discord" },
+        properties = { floating = true, tag = "4", placement = awful.placement.centered },
+        callback = function(c)
+            c:geometry({ width = 1460, height = 750 })
+        end
+    },
+
+    {
+        rule = { class = "obsidian" },
         properties = { floating = true, tag = "4", placement = awful.placement.centered },
         callback = function(c)
             c:geometry({ width = 1460, height = 750 })

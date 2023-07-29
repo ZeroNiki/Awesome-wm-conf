@@ -25,7 +25,9 @@ theme.bg_systray                                = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap                               = dpi(7)
+-- Tab between windows
+theme.useless_gap                               = dpi(8)
+
 theme.border_width                              = dpi(3)
 theme.border_normal                             = "#665c54"
 theme.border_focus                              = "#928374"
@@ -36,6 +38,8 @@ theme.border_marked                             = "#CC9393"
 theme.titlebar_bg_focus                         = "#081122"
 theme.titlebar_bg_normal                        = "#081122"
 -- }}}
+--
+theme.tasklist_disable_task_name                = true
 
 -- There are other variable sets
 -- overriding the default one when
@@ -51,11 +55,11 @@ theme.titlebar_bg_normal                        = "#081122"
 -- You can add as many variables as
 -- you wish and access them by using
 -- beautiful.variable in your rc.lua
---theme.fg_widget        = "#AECF96"
---theme.fg_center_widget = "#88A175"
---theme.fg_end_widget    = "#FF5656"
---theme.bg_widget        = "#494B4F"
---theme.border_widget    = "#3F3F3F"
+-- theme.fg_widget                                 = "#AECF96"
+-- theme.fg_center_widget                          = "#88A175"
+-- theme.fg_end_widget                             = "#FF5656"
+-- theme.bg_widget                                 = "#494B4F"
+-- theme.border_widget                             = "#3F3F3F"
 -- }}}
 
 -- {{{ Mouse finder
@@ -79,7 +83,7 @@ theme.taglist_squares_resize                    = false
 -- }}}
 
 -- {{{ Misc
--- theme.awesome_icon           = themes_path .. "zenburn/awesome-icon.png"
+-- theme.awesome_icon                              = themes_path .. "arch-logo.png"
 theme.menu_submenu_icon                         = themes_path .. "default/submenu.png"
 -- }}}
 
