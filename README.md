@@ -1,5 +1,5 @@
 # Awesome-wm-conf
-[![Awesome](http://img.youtube.com/vi/sXfrGQtoVBg/0.jpg)](https://www.youtube.com/watch?v=sXfrGQtoVBg)
+[![Awesome](https://img.youtube.com/vi/cSlGM6J5fNI/maxresdefault.jpg)](https://youtu.be/cSlGM6J5fNI)
 
 Use:
 - Terminal: kitty
