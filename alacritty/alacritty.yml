@@ -1,0 +1,21 @@
+window:
+  opacity: 1.3
+
+font:
+  # normal:
+  #   family: FreeMono
+  #   style: Regular
+  #
+  # bold:
+  #   family: FreeMono
+  #   style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  # bold_italic:
+  # family: FreeMono
+  # style: Bold Italic
+
+  size: 12
